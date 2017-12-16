@@ -1,0 +1,12 @@
+{
+    "name": "ucb/core",
+    "description": "This is the core api for UCB.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tim Lieberman",
+            "email": "timothy.lieberman@ucb.com"
+        }
+    ],
+    "require": {}
+}
