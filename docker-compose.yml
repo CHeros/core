@@ -4,7 +4,7 @@ version: '2'
     
 services:
   db:
-    image: mariadb
+    image: ucbit/mariadb
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: ucb
@@ -18,7 +18,7 @@ services:
 
       
   drupal:
-    image: drupal
+    image: ucbit/drupal
     environment:
       DB_HOST: localhost:4306
       DB_USER: root
@@ -39,7 +39,7 @@ services:
       - db
 
   adminer:
-    image: adminer
+    image: ucbit/adminer
     restart: always
     ports:
       - 8008:8008
